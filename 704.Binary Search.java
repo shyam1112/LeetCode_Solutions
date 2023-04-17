@@ -1,6 +1,8 @@
 class Solution {
     public int search(int[] nums, int target) {
+        //starting element
         int start=0;
+        //Ending element 
         int end=nums.length-1;
 
         while(start<=end){
