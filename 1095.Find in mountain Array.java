@@ -20,7 +20,7 @@ class Solution {
             }else{
                 start=peak=mid+1;
 
-            }
+           }
         }
         start=0;
         end=peak;
