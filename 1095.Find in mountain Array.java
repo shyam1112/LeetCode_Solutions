@@ -35,6 +35,7 @@ class Solution {
                 return mid;
             }
         }
+     //search on both side
         start=peak;
         end=A.length()-1;
         while(start<=end){
