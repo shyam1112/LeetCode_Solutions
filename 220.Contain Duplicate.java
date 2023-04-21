@@ -12,7 +12,7 @@ class Solution {
             }else{
                 hm.put(nums[i],i);
             }
-        }
+            }
         }
         return false;
     }
