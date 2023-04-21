@@ -1,6 +1,5 @@
 class Solution {
-    public int findDuplicate(int[] nums) {
-        
+    public int findDuplicate(int[] nums) {  
         int ans=cyclic(nums);
         return ans;
     }
