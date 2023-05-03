@@ -18,7 +18,7 @@ class Solution {
             }
         }
         return -1;
-    }
+   }
 
     static void swap(int[] arr,int i,int current){
         int temp=arr[i];
