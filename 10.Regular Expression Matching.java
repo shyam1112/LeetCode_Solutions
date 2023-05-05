@@ -1,6 +1,7 @@
 class Solution {
     public boolean isMatch(String s, String p) {
                 int rows = s.length();
+              
         int columns = p.length();
         /// Base conditions
         if (rows == 0 && columns == 0) {
