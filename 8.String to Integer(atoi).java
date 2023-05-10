@@ -11,6 +11,7 @@ class Solution {
         // Counter
         int i = 0;
         // Flag to indicate if the number is negative
+        
         boolean isNegative = str.startsWith("-");
         // Flag to indicate if the number is positive
         boolean isPositive = str.startsWith("+");
