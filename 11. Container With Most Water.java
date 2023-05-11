@@ -9,9 +9,10 @@ class Solution {
             //the lh=the height of the l array and rh=the height of the r
             int lh=height[l];
             int rh=height[r];
-            int min_h=Math.min(lh,rh);
+            int max_h=Math.min(lh,rh);
+            //maximum height of lh or rh
             int rr=r-l;
-            int area=min_h*rr;
+            int area=max_h*rr;
             max=Math.max(max,area);
             if(lh<rh){
                 l++;
