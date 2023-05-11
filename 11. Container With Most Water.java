@@ -2,6 +2,7 @@ class Solution {
     public int maxArea(int[] height) {
         //starting point
         int l=0;
+        //ending point
         int r=height.length-1;
         int max=0;
         while(l<r){
