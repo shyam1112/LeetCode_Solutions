@@ -4,6 +4,7 @@ class Solution {
             return x;
         }
         int start =0;
+        
         int end = x/2;
 
         while(start<=end){
