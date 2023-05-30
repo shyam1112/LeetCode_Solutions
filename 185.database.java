@@ -5,8 +5,7 @@ FROM Department d, Employee e
 WHERE(
     SELECT COUNT(distinct Salary)
     FROM Employee
-    WHERE Salary > e.Salary AND DepartmentId = d.Id
-    
+    WHERE Salary > e.Salary AND DepartmentId = d.Id   
 ) < 3 AND e.DepartmentId = d.Id
 
 ORDER BY d.Id, e.Salary desc;
