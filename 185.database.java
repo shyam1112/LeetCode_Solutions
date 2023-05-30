@@ -3,7 +3,6 @@ e.Name as Employee,
 e.Salary as Salary
 FROM Department d, Employee e
 WHERE(
-    
     SELECT COUNT(distinct Salary)
     FROM Employee
     WHERE Salary > e.Salary AND DepartmentId = d.Id
