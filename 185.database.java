@@ -9,4 +9,5 @@ WHERE(
     WHERE Salary > e.Salary AND DepartmentId = d.Id
     
 ) < 3 AND e.DepartmentId = d.Id
+
 ORDER BY d.Id, e.Salary desc;
