@@ -7,6 +7,7 @@ class Solution {
         char endchar;
 
         while(start<end){
+            
             startchar=s.charAt(start);
             endchar=s.charAt(end);
 
