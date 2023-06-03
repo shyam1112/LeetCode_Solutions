@@ -11,6 +11,7 @@ class Solution {
       return;
     }
 
+    
     for (int i = start; i < s.length(); ++i)
       if (isPalindrome(s, start, i)) {
         path.add(s.substring(start, i + 1));
