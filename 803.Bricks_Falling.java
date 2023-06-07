@@ -49,6 +49,7 @@ class Solution {
       if (grid[i][j] == 1)
         grid[i][j] = 2;
     }
+    
 
     // Union all 1s
     for (int i = 0; i < m; ++i)
