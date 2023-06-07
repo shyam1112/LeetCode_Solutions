@@ -64,6 +64,7 @@ class Solution {
       final int x = hits[i][0];
       final int y = hits[i][1];
       if (grid[x][y] == 2) { // Cells marked from 1 to 2
+        
         grid[x][y] = 1;      // Unhit, restore back to 1
         unionNeighbors(grid, uf, x, y);
         final int newStableSize = uf.getStableSize();
