@@ -87,6 +87,7 @@ class Solution {
     for (int k = 0; k < 4; ++k) {
       final int x = i + dirs[k];
       final int y = j + dirs[k + 1];
+      
       if (x < 0 || x == m || y < 0 || y == n)
         continue;
       if (grid[x][y] != 1)
