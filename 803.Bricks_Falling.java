@@ -21,6 +21,7 @@ class UnionFind {
     }
   }
 
+  
   public int getStableSize() {
     // Bricks connected with 0 (top) are stable
     return sz[find(0)];
