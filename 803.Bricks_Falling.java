@@ -35,6 +35,7 @@ class UnionFind {
   }
 }
 class Solution {
+  
   public int[] hitBricks(int[][] grid, int[][] hits) {
     this.m = grid.length;
     this.n = grid[0].length;
