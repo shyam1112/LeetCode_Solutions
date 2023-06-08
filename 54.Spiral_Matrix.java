@@ -16,7 +16,6 @@ class Solution {
       }
         
       right--;
-
       if(top<=btm){
       for(int i=right;i>=left;i--){
           
