@@ -19,6 +19,7 @@ class Solution {
 
       if(top<=btm){
       for(int i=right;i>=left;i--){
+          
           list.add(matrix[btm][i]);
       }
       btm--;
