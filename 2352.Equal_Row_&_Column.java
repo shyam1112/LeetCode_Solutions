@@ -10,6 +10,7 @@ class Solution {
                         break;
                     }
                 }
+                
                 if(k==n){
                     ans++;
                 }
