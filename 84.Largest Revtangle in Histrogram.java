@@ -1,4 +1,6 @@
- int ans = 0;
+class Solution {
+  public int largestRectangleArea(int[] heights) {
+    int ans = 0;
     Deque<Integer> stack = new ArrayDeque<>();
 
     for (int i = 0; i <= heights.length; ++i) {
@@ -11,3 +13,5 @@
     }
 
     return ans;
+  }
+}
