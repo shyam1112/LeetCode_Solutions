@@ -7,6 +7,7 @@ class Solution {
               first=sqr(first);
               second=sqr(sqr(second));
           }while(first!=second);
+        
 
           if(first==1){
               return true;
