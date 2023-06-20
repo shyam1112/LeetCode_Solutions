@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     public int maxDepth(TreeNode root) {
         TreeNode node=root;
